@@ -1,12 +1,18 @@
+.containerForm{
+  margin-top: 100px;
+}
 .form__group_one {
-  
+    width: 50%;
+    margin: auto;
     background-color: #1e0bd0;
     /* Flex Box*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   
   .text {
@@ -76,6 +82,7 @@
   }
   
   label {
+    margin-top: 10px;
     color: white;
     padding: 10px;
     font-size: 25px;

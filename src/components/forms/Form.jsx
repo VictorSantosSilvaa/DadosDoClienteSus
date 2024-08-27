@@ -28,7 +28,7 @@ const Form = () => {
                 <form onSubmit={handleSubmit}>
                     <div className="form__group_one">
                         <h1>Cadastro de Paciente</h1>
-                        <label htmlFor="nome">Register your name:</label>
+                        <label htmlFor="nome">Nome:</label>
                         <input
                             type="text"
                             id="nome"
@@ -36,7 +36,30 @@ const Form = () => {
                             value={formState.nome}
                             onChange={handleInput}
                             class="input"
-                            placeholder="Insert here..."
+                            placeholder="Insira aqui..."
+                        />
+
+                        <label htmlFor="nome">Idade:</label>
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            value={formState.nome}
+                            onChange={handleInput}
+                            class="input"
+                            placeholder="Insira aqui..."
+
+                        />
+                        
+                        <label htmlFor="nome">CPF:</label>
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            value={formState.nome}
+                            onChange={handleInput}
+                            class="input"
+                            placeholder="Insira aqui..."
                         />
                     </div>
                     <div className="form__group_one">
